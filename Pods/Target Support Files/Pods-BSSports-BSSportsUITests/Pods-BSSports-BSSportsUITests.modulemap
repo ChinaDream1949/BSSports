@@ -1,0 +1,6 @@
+framework module Pods_BSSports_BSSportsUITests {
+  umbrella header "Pods-BSSports-BSSportsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
