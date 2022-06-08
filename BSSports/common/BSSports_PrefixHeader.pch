@@ -1,0 +1,61 @@
+//
+//  BSSports_PrefixHeader.pch
+//  BSSports
+//
+//  Created by shaw on 2022/5/18.
+//
+
+#ifndef BSSports_PrefixHeader_pch
+#define BSSports_PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+
+#import "UtilsMacros.h"
+#import "FontAndColorMacros.h"
+#import "ThirdMacros.h"
+#import "CommonMacros.h"
+
+#import "emptyjudge.h"
+#import "UserManger.h"
+
+
+#pragma mark - 基础类
+#import "AppDelegate.h"
+#import "AppDelegate+AppService.h"
+#import "RootViewController.h"
+#import "RootNavigationController.h"
+#import "MBProgressHUD+XY.h"
+#import "PPNetworkHelper.h"
+#import "MBProgressHUD+NH.h"
+#import "ViewConstructor.h"
+#import "DWScreenKitInline.h"
+#import "UIView+CPInitFaseView.h"
+#import "WCPBaseModel.h"
+#import "FL_Button.h"
+
+#import "PPHTTPRequest.h"
+#import "PPInterfacedConst.h"
+#import "UIImage+GradientColor.h"
+//#import "RouteManger.h"
+//#import "TreePublicManger.h"
+#import "UITableView+DequRegisCell.h"
+#import "UICollectionView+DequregisCell.h"
+#import "UIViewController+DefaultMapView.h"
+#import "WCPRootTabView.h"
+#import "WCPRootCollView.h"
+
+#pragma mark - 第三方库
+#import <Masonry/Masonry.h>
+#import <MJExtension/MJExtension.h>
+#import <MJRefresh/MJRefresh.h>
+#import <YYKit.h>
+#import <CYLTabBarController/CYLTabBarController.h>
+#import <JXCategoryView/JXCategoryView.h>
+#import <OC_CWCarousel/CWCarousel.h>
+//#import <IQKeyboardManager.h>
+#import "UITableView+FDTemplateLayoutCell.h"
+#import <SDWebImage.h>
+#import "PPNetworkCache.h"
+//#import <SocketRocket.h>
+#endif /* PrefixHeader_pch */
+
